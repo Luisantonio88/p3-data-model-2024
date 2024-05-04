@@ -1,3 +1,25 @@
+Luis Antonio Castro
+
+1. bun install
+
+2. docker-compose up -d
+
+3. bun prisma db push
+
+es una base de datos que contiene 4 entidades: estudiantes, profesores, cursos y lecciones
+
+4. bun run seed
+
+para crear 5 de cada entidad
+
+5. bun run list-courses
+
+scripts:
+list-courses
+list-teachers
+list-students
+list-lessons
+
 # Modelo de Datos
 
 En esta práctica hay que desarrollar el modelo de datos para una aplicación que resulte de tu interés. (No es necesario pensar en la autenticación aún, estudiaremos eso por separado.)
@@ -5,6 +27,7 @@ En esta práctica hay que desarrollar el modelo de datos para una aplicación qu
 Se trata, como otras veces, de hacer un _fork_ de este repositorio y trabajar en él.
 
 La solución del ejercicio debe ser un proyecto Javascript con:
+
 - El esquema de Prisma (`schema.prisma`).
 - La configuración para una base de datos (con `docker-compose.yml`).
 - Rellenado con unos pocos datos de prueba.

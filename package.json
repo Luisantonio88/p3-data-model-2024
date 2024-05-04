@@ -19,6 +19,9 @@
     "list-teachers": "ts-node-esm scripts/listTeachers.ts",
     "list-students": "ts-node-esm scripts/listStudents.ts",
     "list-courses": "ts-node-esm scripts/listCourses.ts",
-    "list-lessons": "ts-node-esm scripts/listLessons.ts"
+    "list-lessons": "ts-node-esm scripts/listLessons.ts",
+    "create-student": "ts-node-esm scripts/createStudent.ts",
+    "create-teacher": "ts-node-esm scripts/createTeacher.ts"
+
   }
 }
