@@ -13,5 +13,12 @@
     "@prisma/client": "5.13.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "seed": "ts-node-esm prisma/seed.ts",
+    "list-courses": "ts-node-esm scripts/listCourses.ts",
+    "list-teachers": "ts-node-esm scripts/listTeachers.ts",
+    "list-students": "ts-node-esm scripts/listStudents.ts"
+
   }
 }
