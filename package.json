@@ -16,9 +16,9 @@
   },
   "scripts": {
     "seed": "ts-node-esm prisma/seed.ts",
-    "list-courses": "ts-node-esm scripts/listCourses.ts",
     "list-teachers": "ts-node-esm scripts/listTeachers.ts",
-    "list-students": "ts-node-esm scripts/listStudents.ts"
-
+    "list-students": "ts-node-esm scripts/listStudents.ts",
+    "list-courses": "ts-node-esm scripts/listCourses.ts",
+    "list-lessons": "ts-node-esm scripts/listLessons.ts"
   }
 }
