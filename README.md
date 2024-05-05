@@ -12,13 +12,19 @@ es una base de datos que contiene 4 entidades: estudiantes, profesores, cursos y
 
 para crear 5 de cada entidad
 
-5. bun run list-courses
+5. scripts:
 
-scripts:
-list-courses
-list-teachers
-list-students
-list-lessons
+bun run list-teachers
+bun run list-students
+bun run list-courses
+bun run list-lessons
+bun run create-student <name> <email>
+bun run create-teacher <name> <email>
+bun run create-course <name> <teacherId> <userId>
+bun run find-student <email>
+bun run find-teacher <email>
+bun run delete-student <email>
+bun run delete-teacher <email>
 
 # Modelo de Datos
 

@@ -2,13 +2,13 @@ import { PrismaClient } from '@prisma/client';
 
 const prisma = new PrismaClient();
 
-async function createUser(userData: { name: string; email: string }) {
+async function createTeacher(teacherData: { name: string; email: string }) {
   try {
-    const user = await prisma.user.create({
-      data: userData
+    const teacher = await prisma.teacher.create({
+      data: teacherData
     });
-    console.log(`Created user ${user.name} with ID: ${user.id}`);
-    return user;
+    console.log(`Created teacher ${teacher.name} with ID: ${teacher.id}`);
+    return teacher;
   } catch (error) {
     console.error("Failed to create user:", error);
     throw error;
@@ -24,10 +24,10 @@ async function main() {
     return;
   }
 
-  const userName = args[0];
-  const userEmail = args[1];
+  const teacherName = args[0];
+  const teacherEmail = args[1];
 
-  await createUser({ name: userName, email: userEmail });
+  await createTeacher({ name: teacherName, email: teacherEmail });
 }
 
 main();

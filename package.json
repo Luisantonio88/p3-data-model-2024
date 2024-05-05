@@ -21,7 +21,11 @@
     "list-courses": "ts-node-esm scripts/listCourses.ts",
     "list-lessons": "ts-node-esm scripts/listLessons.ts",
     "create-student": "ts-node-esm scripts/createStudent.ts",
-    "create-teacher": "ts-node-esm scripts/createTeacher.ts"
-
+    "create-teacher": "ts-node-esm scripts/createTeacher.ts",
+    "create-course": "ts-node-esm scripts/createCourse.ts",
+    "find-student": "ts-node-esm scripts/findStudent.ts",
+    "find-teacher": "ts-node-esm scripts/findTeacher.ts",
+    "delete-student": "ts-node-esm scripts/deleteStudent.ts",
+    "delete-teacher": "ts-node-esm scripts/deleteTeacher.ts"
   }
 }
